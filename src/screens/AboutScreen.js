@@ -1,9 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import Header from "../components/Header";
 function AboutScreen() {
   return (
-    <div>AboutScreen</div>
-  )
+    <div>
+      <Header />
+      <p>
+        This webpag consist of countries,there names,currencies, flags and
+        languages</p>
+      
+    </div>
+  );
 }
 
-export default AboutScreen
+export default AboutScreen;
